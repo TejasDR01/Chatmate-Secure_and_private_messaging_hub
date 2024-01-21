@@ -1,0 +1,64 @@
+
+.container{
+    height: 99.8vh; 
+    width: 23%;
+    background-color: lightgreen;
+    float: left;
+    margin-top: -8px;
+    margin-left: -8px;
+    display: inline; 
+    position: relative;
+}
+
+.chatbox{
+    height: 84.5%;
+    width: 100%;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.chat-bar{
+    width: 97.2%;
+    background-color: lightpink;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+}
+
+.send{
+    padding: 5px;
+    height: 40px;
+    outline: none;
+    background-color: blue;
+    color: white;
+    font-family: cursive;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 40px;
+    align-self: end;
+}
+
+.User{
+    display: flex;
+    float: right;
+}
+.User .name{
+    padding: 15px;
+    margin-right: 40px;
+    font-size: 18px;
+    width: fit-content;
+    height: fit-content;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.User .icon{
+    padding: 10px 15px;
+    color: white;
+    background-color: purple;
+    border-radius: 50%;
+    font-size: 25px;
+    font-family: cursive;
+    width: fit-content;
+    height: fit-content;
+}

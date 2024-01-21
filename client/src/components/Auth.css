@@ -1,0 +1,95 @@
+.s0{
+    width: 100%;
+    height: 100vh;
+    margin: -8px 0px -8px 0px;
+	background-image: url(https://i.pinimg.com/originals/cd/4b/54/cd4b54e4ac2950d1e18dffe5f056a625.jpg);
+	background-repeat: no-repeat;
+    background-size:cover;
+    background-position: fixed;
+	font-family: "Comic Sans MS";
+    }
+::placeholder{
+    color: white;
+} 
+form{
+    padding: 30px;
+}
+.s1{
+	width: 280px;
+	background-image: linear-gradient(to left,rgba(2, 217, 255, 0.808) 10%, rgba(162, 0, 255, 0.774));
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+	top: 40%;
+	left: 70%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+    display:inline-block;
+    border-radius: 15px;
+	transition: 500ms;
+    }
+.s2{
+    display: flex;
+    margin-bottom: 0px;
+}
+.s2 button{
+    padding: 10px;
+    width:50%;
+    text-align: center;
+    font-size: 26px;
+	outline: none;
+	border: none;
+	font-family: "Comic Sans MS";
+	background: none;
+}
+.s2 .t1{
+    border-right: 3px solid rgb(228, 223, 223);
+    border-top-left-radius: 15px;
+	transition: 500ms;
+	cursor: pointer;
+}
+.s2 .t2{
+    border-top-right-radius: 15px;
+    background-color: rgba(255, 0, 128, 0.842);
+    border-bottom: 2px solid rgb(228, 223, 223);
+	transition: 500ms;
+	cursor: pointer;
+}
+.s3 input[type=text],[type=email],[type=password]{
+    background: none;
+	border: 1.5px solid #ffffff;
+	font-size: 21px;
+	outline: none;
+	color: black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: 25px;
+    width:90%;
+	transition: 0.5s;
+}
+.s3 input[type=submit]{
+	outline: none;
+	background-color: #f7fa61;
+	background-attachment: fixed;
+	font-size: 21px;
+    font-family: "Comic Sans MS";
+	border: none;
+    width: 47%;
+    text-align: center;
+	color: #010515;
+	border-radius: 12px;
+	transition: 0.5s;
+	padding: 5px 10px;
+	cursor: pointer;
+  }
+.s3 input[type=submit]:hover{
+	background-color: #eeff00f9;
+	width: 57%;
+}
+#msg{
+	color: #de0202;
+	font-size: 16px;
+	margin-top: -20px;
+	padding: 0px 30px 0px 30px;
+	display: none;
+}
