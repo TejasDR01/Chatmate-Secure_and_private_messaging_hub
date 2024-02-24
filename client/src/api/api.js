@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL:"http://localhost:5000" });
+const API = axios.create({ baseURL:"https://chatmate-secure-and-private-messaging-hub.vercel.app/" });
 
 API.interceptors.request.use((req) => {
     const localdata = localStorage.getItem("profile");
