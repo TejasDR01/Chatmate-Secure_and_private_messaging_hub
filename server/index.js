@@ -53,7 +53,7 @@ io.on("connection", (socket) => {
 });
 
 mongoose.connect(CONNECTION_URL, {useNewUrlParser: true, useUnifiedTopology: true})
-    .then(() => server.listen(PORT, ()=> console.log("[+] server running at port 5000")))
+    .then(() => server.listen(process.env.PORT ?? PORT, ()=> console.log("[+] server running at port 5000")))
     .catch((error) => console.log(error));
 
 
