@@ -7,6 +7,10 @@ import { auth } from "../middlewares/auth.js";
 
 const router = express.Router();
 
+router.get("/test", (req, res) => {
+  res.status(200).send("testing");
+});
+
 router.get("/chats", auth, async (req, res) => {
   try {
     if (!req.userId) res.status(201).json({ message: "Unauthenticated" });
